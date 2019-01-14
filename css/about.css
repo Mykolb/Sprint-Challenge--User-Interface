@@ -78,7 +78,6 @@ header {
     width: 800px;
     display: flex;
     justify-content: flex-end; 
-    margin-bottom: 50px;
 }
 
 header nav {
@@ -101,7 +100,8 @@ header nav a:hover {
 
 .top-content {
     display: flex;
-    justify-content: flex-start;
+    position: relative;
+    bottom: 40px;
 
 }
 

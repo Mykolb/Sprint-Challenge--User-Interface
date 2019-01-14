@@ -120,7 +120,6 @@ header nav a:hover {
     align-items: center;
     width: 95vw;
     margin: 0 auto;
-    border-bottom: 1px dashed black;
 }
 
 .middle .box-a {
@@ -150,7 +149,7 @@ header nav a:hover {
     margin: 20px;
     right: 220px;
     justify-content: space-evenly;
-
+    border-bottom: 1px dashed black;
 }
 
 .middle .box-d {
@@ -160,7 +159,7 @@ header nav a:hover {
     margin: 20px;
     right: 250px;
     justify-content: space-evenly;
-
+    border-bottom: 1px dashed black;
 }
 
 .bottom {
@@ -168,12 +167,6 @@ header nav a:hover {
     margin-bottom: 40px;
 }
 
-.bottom h2 {
-    display: flex;
-    position: relative;
-    bottom: 40px;
-    left: 50px;
-}
  
 h2 {
     white-space: nowrap;

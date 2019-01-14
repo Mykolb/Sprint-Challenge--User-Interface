@@ -112,6 +112,10 @@ header nav a:hover {
     border-bottom: 1px dashed black;
 }
 
+.top .text-box {
+    margin-bottom: 20px;
+}
+
 
 .middle {
     display: flex;

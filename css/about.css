@@ -124,33 +124,41 @@ header nav a:hover {
 }
 
 .middle .box-a {
+    position: relative;
     width: 400px;
     height: 400px;
-    margin: 5px 15px 5px 15px;
-    
+    margin: 20px;
+    right: 220px;
+    justify-content: space-evenly;
     border-bottom: 1px dashed black;
 }
 
 .middle .box-b {
+    position: relative;
     width: 400px;
     height: 400px;
-    margin: 5px 15px 5px 25px;
+    margin: 20px;
+    right: 250px;
     justify-content: space-evenly;
     border-bottom: 1px dashed black;
 }
 
 .middle .box-c {
+    position: relative;
     width: 400px;
     height: 400px;
-    margin: 5px 15px 5px 15px;
+    margin: 20px;
+    right: 220px;
     justify-content: space-evenly;
 
 }
 
 .middle .box-d {
+    position: relative;
     width: 400px;
     height: 400px;
-    margin: 5px 15px 5px 15px;
+    margin: 20px;
+    right: 250px;
     justify-content: space-evenly;
 
 }

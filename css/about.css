@@ -104,7 +104,7 @@ header nav a:hover {
     bottom: 40px;
 }
 
-.top-content {
+.top {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -113,24 +113,25 @@ header nav a:hover {
 }
 
 
-.middle-content {
+.middle {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 95vw;
-	margin: 0 auto;
-}
-
-.middle-content .box-a {
-    width: 400px;
-    height: 400px;
-    margin: 5px 15px 5px 15px;
-    justify-content: space-evenly;
+    margin: 0 auto;
     border-bottom: 1px dashed black;
 }
 
-.middle-content .box-b {
+.middle .box-a {
+    width: 400px;
+    height: 400px;
+    margin: 5px 15px 5px 15px;
+    
+    border-bottom: 1px dashed black;
+}
+
+.middle .box-b {
     width: 400px;
     height: 400px;
     margin: 5px 15px 5px 25px;
@@ -138,7 +139,7 @@ header nav a:hover {
     border-bottom: 1px dashed black;
 }
 
-.middle-content .box-c {
+.middle .box-c {
     width: 400px;
     height: 400px;
     margin: 5px 15px 5px 15px;
@@ -146,7 +147,7 @@ header nav a:hover {
 
 }
 
-.middle-content .box-d {
+.middle .box-d {
     width: 400px;
     height: 400px;
     margin: 5px 15px 5px 15px;
@@ -154,12 +155,12 @@ header nav a:hover {
 
 }
 
-.bottom-content {
+.bottom {
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.bottom-content h2 {
+.bottom h2 {
     display: flex;
     position: relative;
     bottom: 40px;

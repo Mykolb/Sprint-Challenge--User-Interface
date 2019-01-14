@@ -98,11 +98,18 @@ header nav a:hover {
     color: red;
 }
 
-.top-content {
+.header-logo {
     display: flex;
     position: relative;
     bottom: 40px;
+}
 
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 

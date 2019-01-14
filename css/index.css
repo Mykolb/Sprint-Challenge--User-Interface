@@ -75,8 +75,7 @@ header {
     width: 800px;
     display: flex;
     justify-content: flex-end; 
-    margin-bottom: 30px;
-}
+ }
 
 header nav {
     display: flex;
@@ -97,10 +96,10 @@ header nav a:hover {
 }
 
 .header-logo {
-    display: block;
-    position: absolute;
-    top: 15px;
-    left: 280px;
+    display: flex;
+    position: relative;
+    bottom: 40px;
+ 
 }
 
 .top-image {
@@ -154,6 +153,7 @@ header nav a:hover {
     height: 80px;
     border: 1px dashed black;
     margin: 12px 20px 20px 40px;
+    padding: 30px 0px 0px 20px;
   }
  
   .middle-content .boxes .box2 {
@@ -162,6 +162,7 @@ header nav a:hover {
     height: 80px;
     border: 1px dashed black;
     margin: 12px 20px 20px 40px;
+    padding: 30px 0px 0px 20px;
  }
 
  .middle-content .boxes .box3 {
@@ -170,6 +171,7 @@ header nav a:hover {
     height: 80px;
     border: 1px dashed black;
     margin: 12px 20px 20px 40px;
+    padding: 30px 0px 0px 20px;
  }
    
  .middle-content .boxes .box4 {
@@ -178,6 +180,7 @@ header nav a:hover {
     height: 80px;
     border: 1px dashed black;
     margin: 12px 20px 20px 40px;
+    padding: 30px 0px 0px 20px;
  }
  
  .middle-content .boxes .box5 {
@@ -186,6 +189,7 @@ header nav a:hover {
     height: 80px;
     border: 1px dashed black;
     margin: 12px 20px 20px 40px;
+    padding: 30px 0px 0px 20px;
  }
  
  .middle-content .boxes .box6 {
@@ -194,6 +198,7 @@ header nav a:hover {
     height: 80px;
     border: 1px dashed black;
     margin: 12px 20px 20px 40px;
+    padding: 30px 0px 0px 20px;
  }
  
  .middle-content .boxes .box7 {
@@ -202,6 +207,7 @@ header nav a:hover {
     height: 80px;
     border: 1px dashed black;
     margin: 12px 20px 20px 40px;
+    padding: 30px 0px 0px 20px;
  }
  
  .middle-content .boxes .box8 {
@@ -210,6 +216,7 @@ header nav a:hover {
     height: 80px;
     border: 1px dashed black;
     margin: 12px 20px 20px 40px;
+    padding: 30px 0px 0px 20px;
  }
  
  .middle-content .boxes .box9 {
@@ -218,6 +225,7 @@ header nav a:hover {
     height: 80px;
     border: 1px dashed black;
     margin: 12px 20px 20px 40px;
+    padding: 30px 0px 0px 20px;
  }
  
  .middle-content .boxes .box10 {
@@ -226,7 +234,9 @@ header nav a:hover {
     height: 80px;
     border: 1px dashed black;
     margin: 12px 20px 20px 40px;
+    padding: 30px 0px 0px 20px;
  }
+
  
 .bottom-content {
     display: flex;
@@ -240,201 +250,6 @@ header nav a:hover {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
-footer nav a:hover {
-    text-decoration: underline;
-    color: pink;
-}
-
-
-
-
-/* about.css file */
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-}
-
-p {
-    line-height: 1.4;
-}
-
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
-
-header {
-    width: 800px;
-    display: flex;
-    justify-content: flex-end; 
-    margin-bottom: 30px;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-between;
-    width: 610px; 
-    top: 10px;
-    margin-top: 40px;
-}
-
-header nav a {
-    text-decoration: none;
-    color: black;
-}
-
-header nav a:hover {
-    text-decoration: underline;
-    color: red;
-}
-
-.top-content {
-    display: flex;
-}
-
-.top-content .text-container {
-
-
-}
-
-.middle-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 95vw;
-	margin: 0 auto;
-}
-
-.middle-content .box1 {
-    width: 400px;
-    height: 400px;
-    margin: 5px 15px 5px 15px;
-    justify-content: space-evenly;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content .box2 {
-    width: 400px;
-    height: 400px;
-    margin: 5px 15px 5px 25px;
-    justify-content: space-evenly;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content .box3 {
-    width: 400px;
-    height: 400px;
-    margin: 5px 15px 5px 15px;
-    justify-content: space-evenly;
-
-}
-
-.middle-content .box4 {
-    width: 400px;
-    height: 400px;
-    margin: 5px 15px 5px 15px;
-    justify-content: space-evenly;
-
-}
-
-.bottom-content {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.bottom-content h2 {
-    display: flex;
-    position: relative;
-    bottom: 40px;
-    left: 50px;
-}
- 
-h2 {
-    white-space: nowrap;
-    margin-top: 30px;
 }
 
 footer {
